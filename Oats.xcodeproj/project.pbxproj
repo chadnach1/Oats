@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		636A940B1989A1E900B60461 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 636A940A1989A1E900B60461 /* Constants.m */; };
+		636A9411198AD8BD00B60461 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 636A9410198AD8BD00B60461 /* AbstractActionSheetPicker.m */; };
+		636A942D198C4E4C00B60461 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 636A942C198C4E4C00B60461 /* ActionSheetStringPicker.m */; };
 		639407221986CA4D00552FFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639407211986CA4D00552FFB /* Foundation.framework */; };
 		639407241986CA4D00552FFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639407231986CA4D00552FFB /* CoreGraphics.framework */; };
 		639407261986CA4D00552FFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639407251986CA4D00552FFB /* UIKit.framework */; };
@@ -21,6 +24,9 @@
 		639407431986CA4D00552FFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639407251986CA4D00552FFB /* UIKit.framework */; };
 		6394074B1986CA4D00552FFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 639407491986CA4D00552FFB /* InfoPlist.strings */; };
 		6394074D1986CA4D00552FFB /* OatsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6394074C1986CA4D00552FFB /* OatsTests.m */; };
+		639407581986D2C300552FFB /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 639407571986D2C300552FFB /* UIColor+HexString.m */; };
+		6394075B1986ED6700552FFB /* FlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6394075A1986ED6700552FFB /* FlatButton.m */; };
+		6394075E1986FDD300552FFB /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6394075D1986FDD300552FFB /* SignInViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		636A94091989A1D200B60461 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		636A940A1989A1E900B60461 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		636A940F198AD8BD00B60461 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		636A9410198AD8BD00B60461 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		636A942B198C4E4C00B60461 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = ../ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		636A942C198C4E4C00B60461 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = ../ActionSheetStringPicker.m; sourceTree = "<group>"; };
 		6394071E1986CA4D00552FFB /* Oats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		639407211986CA4D00552FFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		639407231986CA4D00552FFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +65,12 @@
 		639407481986CA4D00552FFB /* OatsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OatsTests-Info.plist"; sourceTree = "<group>"; };
 		6394074A1986CA4D00552FFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6394074C1986CA4D00552FFB /* OatsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OatsTests.m; sourceTree = "<group>"; };
+		639407561986D2C300552FFB /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		639407571986D2C300552FFB /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		639407591986ED6700552FFB /* FlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlatButton.h; path = ../FlatButton.h; sourceTree = "<group>"; };
+		6394075A1986ED6700552FFB /* FlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlatButton.m; path = ../FlatButton.m; sourceTree = "<group>"; };
+		6394075C1986FDD300552FFB /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		6394075D1986FDD300552FFB /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +135,8 @@
 				639407331986CA4D00552FFB /* Main.storyboard */,
 				639407361986CA4D00552FFB /* ViewController.h */,
 				639407371986CA4D00552FFB /* ViewController.m */,
+				6394075C1986FDD300552FFB /* SignInViewController.h */,
+				6394075D1986FDD300552FFB /* SignInViewController.m */,
 				639407391986CA4D00552FFB /* Images.xcassets */,
 				639407281986CA4D00552FFB /* Supporting Files */,
 			);
@@ -126,6 +146,16 @@
 		639407281986CA4D00552FFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				636A940F198AD8BD00B60461 /* AbstractActionSheetPicker.h */,
+				636A9410198AD8BD00B60461 /* AbstractActionSheetPicker.m */,
+				636A942B198C4E4C00B60461 /* ActionSheetStringPicker.h */,
+				636A942C198C4E4C00B60461 /* ActionSheetStringPicker.m */,
+				636A94091989A1D200B60461 /* Constants.h */,
+				636A940A1989A1E900B60461 /* Constants.m */,
+				639407561986D2C300552FFB /* UIColor+HexString.h */,
+				639407571986D2C300552FFB /* UIColor+HexString.m */,
+				639407591986ED6700552FFB /* FlatButton.h */,
+				6394075A1986ED6700552FFB /* FlatButton.m */,
 				639407291986CA4D00552FFB /* Oats-Info.plist */,
 				6394072A1986CA4D00552FFB /* InfoPlist.strings */,
 				6394072D1986CA4D00552FFB /* main.m */,
@@ -249,9 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636A9411198AD8BD00B60461 /* AbstractActionSheetPicker.m in Sources */,
 				639407381986CA4D00552FFB /* ViewController.m in Sources */,
 				639407321986CA4D00552FFB /* AppDelegate.m in Sources */,
+				639407581986D2C300552FFB /* UIColor+HexString.m in Sources */,
 				6394072E1986CA4D00552FFB /* main.m in Sources */,
+				6394075E1986FDD300552FFB /* SignInViewController.m in Sources */,
+				636A942D198C4E4C00B60461 /* ActionSheetStringPicker.m in Sources */,
+				636A940B1989A1E900B60461 /* Constants.m in Sources */,
+				6394075B1986ED6700552FFB /* FlatButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +492,7 @@
 				639407521986CA4D00552FFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		639407531986CA4D00552FFB /* Build configuration list for PBXNativeTarget "OatsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +501,7 @@
 				639407551986CA4D00552FFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
